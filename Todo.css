@@ -1,0 +1,117 @@
+body {
+    font-family: Arial;
+   background-image:url(./bg2.avif);
+   background-size: cover;
+  }
+  
+  #main-heading {
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-top: 150px;
+    font-family: serif;
+    margin-left: -18px;
+
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #todo-input, #todo-date {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
+  
+  .btn-delete {
+    background-color: rgb(174, 11, 11);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+  }
+  
+  .btn-todo {
+    background-color: rgb(47, 230, 71);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+  }
+
+
+  .logo{
+    color: #ffffff;
+    height: 40px;
+}
+
+header {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  color: #ffffff;
+  padding: 20px 100px;
+  background-color: #242333;
+  display: flex;
+  
+  align-items: center;
+  z-index: 99;
+  
+}
+a{
+color: #ffffff;
+margin: 4px;
+margin-left: 60px;
+
+}
+a:hover{
+  color: red;
+}
+  li {
+    background-color: #f9f9f9;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;}
+    
+    img{
+        width: 100px;
+        height: 1oopx;
+        
+    }
+
+    h1{
+        color: rgb(156, 154, 154);
+    }
+
+
+    .navigation{
+      display: flex;
+      gap: 10px;
+      
+      
+    }
+  
+    a{
+      color: #ffffff;
+      margin: 4px;
+      text-decoration: none;
+      
+    }
+      a:hover{
+          color: red;
+      }
+      
+    .button {
+      background-color: rgb(91, 91, 126);
+      border-radius: 50px;
+    }

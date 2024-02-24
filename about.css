@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#000000, #384f65);
+}
+
+#main-haid {
+    text-align:justify;
+    font-size: 50px;
+    color: rgb(166, 112, 12);
+    margin-top: 60px;
+    margin-left:20px;}
+
+    p{color: #bcb8b8;
+        font-size: 20px;
+        text-align: justify;
+        margin-left:20px;
+        margin-right: 25px;
+
+    }
+    h2{
+        color: rgb(227, 230, 21);
+        font-size: 30px;
+        margin-left:20px;
+        margin-right: 25px;
+    }
